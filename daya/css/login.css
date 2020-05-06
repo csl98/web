@@ -1,0 +1,157 @@
+.banner>div{
+	width:1200px;
+	height:566px;
+	margin:0 auto;
+	padding-top:34px;
+	position:relative;
+}
+.log-form{
+	width:300px;
+	height:482px;
+	right:0;
+	position:absolute;
+	padding:0 36px 0 38px;
+}
+.banner>div>em{
+	width:374px;
+	height:482px;
+	background-color:#fff;
+	filter:alpha(opacity:51);
+	opacity:0.51;
+	right:0;
+	position:absolute;
+}
+.log-form h2{
+	font-size:18px;
+	color:#666;
+	line-height:63px;
+	font-weight:normal;
+}
+.log-form .name{
+	margin-bottom:23px;
+}
+.log-form .name input,#pass{
+	font-size:14px;
+	color:#a6a6a8;
+	vertical-align:top;
+	height:38px;
+	border:none;
+	padding-left:10px;
+}
+.log-form .password{
+	position:relative;
+	margin-bottom:22px;
+	background-color:#fff;
+}
+.log-form .password label{
+	position:absolute;
+	height:38px;
+	line-height:38px;
+	font-size:14px;
+	color:#a6a6a8;
+	left:48px;
+	cursor:text;
+}
+.log-form .name,.log-form .password{
+	width:298px;
+	height:38px;
+	border:1px solid #9a9a9a;
+}
+.log-form .name input,.log-form .password input{
+	width:250px;
+	line-height:38px;
+}
+.log-form .name i,.log-form .password i{
+	display:inline-block;
+	width:37px;
+	height:38px;
+	border-right:1px solid #9a9a9a;
+	background:url(../img/login.png) no-repeat;
+}
+.log-form .name i{
+	background-position:4px 5px;
+	background-color:#fff;
+}
+.log-form .password i{
+	background-position:4px -58px;
+}
+.log-form .verification{
+	width:198px;
+	height:38px;
+	border:1px solid #9a9a9a;
+	margin-bottom:25px;
+	background-color:#fff;
+	display:inline-block;
+}
+.log-form .verification input{
+	width:112px;
+	height:38px;
+	line-height:38px;
+	border:none;
+	font-size:14px;
+	color:#a6a6a8;
+	padding:0 0 0 10px;
+	vertical-align:top;
+}
+.log-form .verification>span{
+	width:76px;
+	height:38px;
+	background:#a6a6a8;
+	display:inline-block;
+}
+.log-form input[type="submit"]{
+	width:300px;
+	height:40px;
+	background-color:#ce413c;
+	font-size:22px;
+	color:#fff;
+	text-align:center;
+	border:none;
+	padding:0;
+	margin-bottom:3px;
+}
+.log-form>a{
+	font-size:14px;
+	color:#a6a6a8;
+	border-bottom:1px solid #a6a6a8;
+}
+.log-form .change{
+	float:right;
+	margin-top:18px;
+}
+.log-form .reg{
+	float:left;
+}
+.log-form .forget{
+	float:right;
+}
+.log-form .other{
+	margin-top:44px;
+	border-top:1px solid #eee;
+}
+.log-form .other p{
+	font-size:14px;
+	color:#a6a6a8;
+	margin:14px 0 4px;
+}
+.log-form .other a{
+	display:inline-block;
+	font-size:12px;
+	color:#a6a6a8;
+	background:url(../img/login-other.png) no-repeat;
+	padding-top:11px;
+}
+.log-form .other .micro-blog{
+	padding-left:22px;
+	background-position:0px 2px;
+}
+.log-form .other .wechat{
+	margin-left:46px;
+	padding-left:25px;
+	background-position:-116px 0px;
+}
+.log-form .other .qq{
+	margin-left:48px;
+	padding-left:19px;
+	background-position:-238px 2px;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>确认订单</title>
+<link href="css/common.css" rel="stylesheet">
+<link href="css/confirm_order.css" rel="stylesheet">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?18ca32a7f6bde9dd12597c34c7e946b7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+	<div class="header">
+		<p><a class="goback" onclick="history.go(-1)" href="javascript:;"></a>确认订单<a href="javascript:;">编辑</a></p>
+	</div>
+	<div class="order_info">
+		<p><img src="img/order_info1.png">订单号：00214913</p>
+		<p><img src="img/order_info2.png">收货人：二哈<span>1598258426</span></p>
+		<p><img src="img/order_info3.png">收货地址：广东省广州市海珠区艺苑路</p>
+	</div>
+	<ul class="pro_list">
+		<li><a href="pro_details.html">
+			<img src="img/pro_list1.jpg">
+			<p>海尔MOOKA/模卡大屏4K超高清人工智能网液晶电视70</p>
+			<p>颜色：金色</p>
+			<p>价格：<i>￥3999</i></p>
+			<em>X2</em>
+		</a></li>
+	</ul>
+	<ul class="order_nav">
+		<li><a href="javascript:;">
+			<i></i>售后服务<span>全国联保</span>
+		</a></li>
+		<li><a href="javascript:;">
+			<i></i>配送方式<span>快递免邮</span>
+		</a></li>
+		<li><a href="javascript:;">
+			<i></i>运费险<span>卖家赠送，若确认收货前退货，可获保险赔付</span>
+		</a></li>
+		<li><a href="javascript:;">
+			<i></i>发票类型<span>电子发票</span>
+		</a></li>
+	</ul>
+	<p class="words">卖家留言：<textarea placeholder="填写对本次交易的说明"></textarea></p>
+	<p class="total">共两件商品 小计：<i>￥7998</i></p>
+	<div class="bottom_bar">
+		<a href="javascript:;">去结算（2）</a>
+		<p>合算：<i>￥7998</i></p>
+		<p>运费：￥0</p>
+	</div>
+	<div class="pay">
+		<i></i>
+		<div>
+			<h3><a href="javascript:;"></a>付款详情<a href="javascript:;"></a></h3>
+			<p>支付宝账号<span>256*****358@qq.com</span></p>
+			<p>付款方式<span>广州工商银行（0689）</span></p>
+			<p>需付款<i>￥7988</i></p>
+			<div><a id="pay" href="javascript:;">确定付款</a></div>
+		</div>
+	</div>
+	<div class="alert">
+		<div>
+			<h5>跳转到</h5>
+			<p>
+				<a href="pay_success.html">支付成功</a>
+				<a href="pay_failuer.html">支付失败</a>
+			</p>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="js/confirm_order.js"></script>
+</body>
+</html>

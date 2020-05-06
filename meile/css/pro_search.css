@@ -1,0 +1,132 @@
+body{
+	padding-bottom:1rem;
+}
+.header{
+	background-color:#313131;
+	padding:.13rem 0;
+	position:fixed;
+	top:0;
+	width:7.5rem;
+	z-index:1;
+}
+.header>div{
+	width:7.1rem;
+	margin:0 auto;
+}
+.header>div>a:nth-of-type(1){
+	width:.52rem;
+	height:.52rem;
+	background:url(../img/back.png) no-repeat center/100%;
+	display:inline-block;
+}
+.header>div>a:nth-of-type(2){
+	font-size:.3rem;
+	color:#fff;
+	float:right;
+	padding:0 .06rem;
+	line-height:.52rem;
+}
+.header>div>div{
+	width:5.29rem;
+	height:.48rem;
+	border:.02rem solid #fff;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 0 .35rem;
+}
+.header>div>div>img{
+	width:.35rem;
+	height:.35rem;
+	margin:.07rem 0 0 .1rem;
+}
+.header>div>div>input{
+	height:.48rem;
+	width:4.3rem;
+	border:none;
+	vertical-align:top;
+	padding-left:.11rem;
+	font-size:.24rem;
+	color:#ccc;
+	background:none;
+}
+.header>div>div>label{
+	float:right;
+	width:.33rem;
+	height:.35rem;
+	background:url(../img/del.png) no-repeat center/100%;
+	margin:.07rem .05rem 0 0;
+	cursor:pointer;
+}
+.hot_search{
+	border-bottom:.07rem solid #e5e5e5;
+}
+.hot_search>dl{
+	width:7.1rem;
+	margin:0 auto;
+	padding:.2rem 0;
+}
+.hot_search>dl>dt{
+	font-size:.36rem;
+	color:#333;
+	display:inline-block;
+}
+.hot_search>dl>dd{
+	display:inline-block;
+	margin:.035rem 0 0 .18rem;
+	vertical-align:top;
+}
+.hot_search>dl>dd>a{
+	font-size:.3rem;
+	color:#333;
+	background-color:#e5e5e5;
+	padding:0 .1rem;
+	display:block;
+}
+.hst_search>dl>dt{
+	font-size:.36rem;
+	color:#333;
+	border-bottom:.01rem solid #d2d2d2;
+	height:.65rem;
+	line-height:.65rem;
+}
+.hst_search>dl>dt>span{
+	width:7.1rem;
+	margin:0 auto;
+	display:block;
+}
+.hst_search>dl>dd{
+	border-bottom:.01rem solid #d2d2d2;
+	height:.65rem;
+	line-height:.65rem;
+}
+.hst_search>dl>dd>a{
+	font-size:.3rem;
+	color:#333;
+	width:7.1rem;
+	margin:0 auto;
+	display:block;
+}
+.remove{
+	border-top:.01rem solid #d2d2d2;
+	position:fixed;
+	bottom:0;
+	width:7.5rem;
+	background-color:#fff;
+}
+.remove>p{
+	width:7.1rem;
+	margin:0 auto;
+	text-align:center;
+}
+.remove>p>a{
+	font-size:.24rem;
+	color:#333;
+	display:inline-block;
+	line-height:.98rem;
+}
+.remove>p>a>img{
+	width:.35rem;
+	height:.37rem;
+	vertical-align:top;
+	margin:.3rem .1rem 0 0;
+}

@@ -1,0 +1,155 @@
+body{
+	padding-bottom:.98rem;
+}
+.header{
+	background-color:#313131;
+	padding:.13rem 0;
+	position:fixed;
+	top:0;
+	z-index:1;
+	width:7.5rem;
+}
+.header>p{
+	width:6rem;
+	line-height:.52rem;
+	font-size:.3rem;
+	color:#fff;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+.header>p>a:nth-of-type(1){
+	position:absolute;
+	width:.52rem;
+	height:.52rem;
+	background:url(../img/back.png) no-repeat center/100%;
+	left:-.56rem;
+}
+.header>p>a:nth-of-type(2){
+	position:absolute;
+	right:-.2rem;
+	font-size:.24rem;
+	color:#fff;
+}
+.content>.load{
+	font-size:.24rem;
+	color:#999;
+	width:7.1rem;
+	text-align:center;
+	margin:.2rem auto;
+}
+.content>ul{
+	width:7.5rem;
+	margin:0 auto;
+}
+.content>ul>li{
+	position:relative;
+	border-bottom:.09rem solid #dcdcdc;
+}
+.content>ul>li>a{
+	width:7.1rem;
+	margin:0 auto;
+	display:block;
+	overflow:hidden;
+}
+.content>ul>li>a>img{
+	width:2.64rem;
+	height:2.24rem;
+	float:left;
+	margin:.2rem .2rem .1rem .7rem;
+}
+.content>ul>li>a>p{
+	font-size:.24rem;
+	color:#333;
+	line-height:.48rem;
+	letter-spacing:.01rem;
+}
+.content>ul>li>a>p:nth-of-type(1){
+	margin-top:.4rem;
+}
+.content>ul>li>a>p>i{
+	color:#ff0000;
+}
+.content>ul>li>span{
+	position:absolute;
+	right:.2rem;
+	bottom:.33rem;
+}
+.content>ul>li>span>input{
+	width:.67rem;
+	height:.23rem;
+	line-height:.23rem;
+	border:.01rem solid #959595;
+	border-left:none;
+	border-right:none;
+	vertical-align:top;
+	background-color:#eee;
+	text-align:center;
+	font-size:.14rem;
+	color:#333;
+}
+.content>ul>li>span>a{
+	font-size:.24rem;
+	color:#333;
+	display:inline-block;
+	width:.28rem;
+	height:.23rem;
+	line-height:.20rem;
+	border:.01rem solid #959595;
+	background-color:#eee;
+	text-align:center;
+}
+.bottom_bar{
+	width:7.5rem;
+	overflow:hidden;
+	position:fixed;
+	bottom:0;
+	background-color:#fff;
+	border-top:.01rem solid #898989;
+	border-bottom:.01rem solid #898989;
+}
+.bottom_bar>p{
+	font-size:.3rem;
+	color:#333;
+	line-height:.48rem;
+	text-indent:3rem;
+}
+.bottom_bar>p>i{
+	color:#ff0000;
+}
+.bottom_bar>a{
+	font-size:.3rem;
+	color:#fff;
+	background:#009999;
+	width:2.09rem;
+	line-height:.98rem;
+	text-align:center;
+	float:right;
+}
+.content>ul>li>label,
+.bottom_bar>label{
+	position:absolute;
+	font-size:.24rem;
+	color:#333;
+	line-height:.3rem;
+	left:.2rem;
+	top:50%;
+	margin-top:-.15rem;
+	cursor:pointer;
+}
+.content>ul>li>label>i,
+.bottom_bar>label>i{
+	display:inline-block;
+	width:.3rem;
+	height:.3rem;
+	background:url(../img/chkbox.png) no-repeat center/100%;
+	vertical-align:top;
+	margin-right:.1rem;
+}
+.content>ul>li>label>i{
+	margin-right:0;
+}
+.content>ul>li>.on>i,
+.bottom_bar>.on>i{
+	background-image:url(../img/chkbox_on.png);
+}

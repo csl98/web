@@ -1,0 +1,156 @@
+.middle{
+	padding:0 0 80px;
+}
+.middle .side-nav{
+	margin:11px 20px 0 0 ;
+	vertical-align:top;
+}
+.middle .main-nav ul{
+	width:856px;
+	height:29px;
+	font-size:16px;
+	color:#666;
+	margin:30px auto;
+}
+.middle .main-nav ul li{
+	float:left;
+	height:29px;
+	line-height:29px;
+	letter-spacing:1px;
+	margin-left:35px;
+}
+.middle .main-nav ul .daya-spm,.middle .main-nav ul .daya-int{
+	padding-left:33px;
+	background:url(../img/index-nav.png) no-repeat;
+}
+.middle .main-nav ul .daya-spm{
+	background-position:-209px 0px;
+}
+.middle .main-nav ul .daya-int{
+	background-position:-349px 0px;
+}
+.middle .user{
+	display:inline-block;
+	width:990px;
+}
+.middle .user>div{
+	margin-top:15px;
+}
+.middle .user>div:first-child{
+	margin-top:0;
+}
+.middle .user .mine{
+	width:988px;
+	height:126px;
+	border:1px solid #d2d2d2;
+	display:inline-block;
+}
+.middle .user .myorder{
+	width:990px;
+	display:inline-block;
+}
+.middle .user .like{
+	width:990px;
+	display:inline-block;
+}
+.middle .user .myorder>p,
+.middle .user .like>p{
+	font-size:16px;
+	color:#666;
+	line-height:28px;
+}
+.middle .user .myorder>table{
+	width:990px;
+	border:1px solid #d2d2d2;
+	border-collapse:collapse;
+}
+.middle .user .myorder>table>thead>tr>th{
+	font-size:16px;
+	color:#666;
+	font-weight:normal;
+	background:#d2d2d2;
+	line-height:30px;
+	width:165px;
+}
+.middle .user .myorder>table>tbody>tr>td{
+	font-size:14px;
+	color:#666;
+	text-align:center;
+}
+.middle .user .myorder>table>tbody>tr>td img{
+	margin:8px 0 2px;
+}
+.middle .user .myorder>table>tbody>tr>td>span{
+	color:#ca2821;
+}
+.middle .user .like>ul>li{
+	display:inline-block;
+	text-align:center;
+	margin-left:18px;
+}
+.middle .user .like>ul>li:first-child{
+	margin-left:0;
+}
+.middle .user .like>ul>li>a{
+	display:block;
+	border:1px solid #d2d2d2;
+}
+.middle .user .like>ul>li>a:hover{
+	border-color:#ca2821;
+}
+.middle .user .like>ul>li>a>img{
+	margin:5px;
+}
+.middle .user .like>ul>li>a>b,
+.middle .user .like>ul>li>a>p{
+	font-size:14px;
+	color:#666;
+}
+.middle .user .like>ul>li>a>b{
+	font-weight:normal;
+}
+.middle .user .mine>div{
+	font-size:14px;
+	color:#666;
+	border-bottom:1px solid #d2d2d2;
+	padding:16px 0 12px 20px;
+}
+.middle .user .mine>div>span{
+	display:inline-block;
+	vertical-align:top;
+	line-height:30px;
+	height:52px;
+	position:relative;
+	width:150px;
+}
+.middle .user .mine>div>span>img{
+	vertical-align:top;
+	margin-right:5px;
+}
+.middle .user .mine>div>span>i{
+	font-style:normal;
+	font-size:12px;
+	position:absolute;
+	top:25px;
+	left:59px;
+}
+.middle .user .mine>div>a{
+	margin-left:75px;
+	display:inline-block;
+	line-height:52px;
+}
+.middle .user .mine>p{
+	font-size:14px;
+	color:#666;
+}
+.middle .user .mine>p>a{
+	display:inline-block;
+	margin-left:90px;
+	margin-top:10px;
+}
+.middle .user .mine>p>a>img{
+	margin-right:5px;
+}
+.middle .user .mine>p>a:first-child{
+	margin-left:20px;
+}

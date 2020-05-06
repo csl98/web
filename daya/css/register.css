@@ -1,0 +1,112 @@
+.reg-form{
+	width:844px;
+	height:593px;
+	background-color:#313131;
+	filter:alpha(opacity:85);
+	opacity:0.85;
+	position:absolute;
+	right:45px;
+}
+.reg-form form{
+	width:366px;
+	margin:0 auto;
+	padding-top:25px;
+	color:#fff;
+}
+.reg-form form h2{
+	font-size:19px;
+	margin-bottom:12px;
+}
+.reg-form form p{
+	font-size:14px;
+	width:357px;
+	height:37px;
+	border:1px solid #9a9a9a;
+	line-height:37px;
+	margin-bottom:25px;
+	padding-left:7px;
+}
+.reg-form form .verification{
+	position:relative;
+}
+.reg-form form .verification>i{
+	width:61px;
+	height:37px;
+	cursor:pointer;
+	position:absolute;
+	right:0;
+	font-style:normal;
+}
+.reg-form form p span{
+	position:absolute;
+}
+.reg-form form p label{
+	position:absolute;
+	color:#ccc;
+	left:78px;
+	cursor:text;
+}
+.reg-form form .password{
+	position:relative;
+}
+.reg-form form input{
+	width:286px;
+	height:37px;
+	line-height:37px;
+	border:none;
+	font-size:14px;
+	color:#ccc;
+	background-color:#313131;
+	margin-left:65px;
+	vertical-align:top;
+}
+.reg-form form input[type="submit"]{
+	margin:0;
+	padding:0;
+	width:366px;
+	height:43px;
+	line-height:43px;
+	font-size:21px;
+	text-align:center;
+	color:#fffdfd;
+	background-color:#ca2821;
+}
+.reg-form .checkdiv{
+	height:17px;
+	width:77px;
+	display:inline-block;
+	position:relative;
+	margin:0 6px 14px 0;
+}
+#check{
+	width:17px;
+	height:17px;
+	margin:0;
+	visibility:hidden;
+}
+.reg-form .checkdiv>label{
+	display:block;
+	width:77px;
+	height:17px;
+	margin:0;
+	padding-left:22px;
+	background:url(../img/nocheck.png) no-repeat;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:12px;
+}
+.reg-form form>div{
+	font-size:0;
+}
+.reg-form form>div>a{
+	color:#f2beaf;
+	vertical-align:top;
+	font-size:12px;
+}
+.banner>div{
+	width:1200px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+}

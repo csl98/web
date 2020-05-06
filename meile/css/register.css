@@ -1,0 +1,95 @@
+body{
+	background-color:#eee;
+	padding-bottom:1rem;
+}
+.header{
+	background-color:#313131;
+	padding:.13rem 0;
+	position:fixed;
+	top:0;
+	z-index:1;
+	width:7.5rem;
+}
+.header>p{
+	width:6rem;
+	line-height:.52rem;
+	font-size:.3rem;
+	color:#fff;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+.header>p>a{
+	position:absolute;
+	width:.52rem;
+	height:.52rem;
+	background:url(../img/back.png) no-repeat center/100%;
+	left:-.56rem;
+}
+.register{
+	width:6rem;
+	margin:0 auto;
+	font-size:.24rem;
+}
+.register label,
+.register input{
+	font-size:.24rem;
+	color:#999;
+	border:none;
+}
+.register label{
+	position:absolute;
+	left:.28rem;
+}
+.register input{
+	text-indent:.28rem;
+}
+.register>p,
+.register>input{
+	margin-top:.7rem;
+}
+.register p{
+	position:relative;
+}
+.register input,
+.register p{
+	width:100%;
+	height:.7rem;
+	line-height:.7rem;
+	white-space:nowrap;
+}
+.register>input[type="submit"]{
+	color:#eee;
+	background:#009999;
+	margin-top:.35rem;
+	text-indent:0;
+}
+#code{
+	width:1.72rem;
+	height:.7rem;
+	position:absolute;
+	right:0;
+	line-height:.7rem;
+	text-align:center;
+	letter-spacing:.05rem;
+	color:#999;
+	z-index:1;
+}
+.register>p:nth-of-type(4){
+	margin-top:0;
+}
+.register>p:nth-of-type(4)>.on{
+	background:url(../img/hook_on.png) no-repeat center/100%;
+}
+.register>p:nth-of-type(4)>span{
+	cursor:pointer;
+}
+.register>p>i{
+	display:inline-block;
+	width:.23rem;
+	height:.23rem;
+	background:url(../img/hook.png) no-repeat center/100%;
+	vertical-align:top;
+	margin:.235rem .1rem 0 0;
+	cursor:pointer;
+}

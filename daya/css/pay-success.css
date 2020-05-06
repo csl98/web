@@ -1,0 +1,75 @@
+.middle{
+	width:946px;
+	height:514px;
+	border:1px solid #b8b7b7;
+	margin:120px auto 97px;
+}
+.middle .success{
+	height:184px;
+	margin-top:153px;
+}
+.middle .success .s-left{
+	float:left;
+	width:447px;
+	height:184px;
+	margin-left:53px;
+	padding-left:51px;
+	background:url(../img/pay-success.png) no-repeat;
+	position:relative;
+}
+.middle .success .s-right{
+	float:right;
+	width:156px;
+	height:180px;
+	border-left:1px solid #d2d2d2;
+	margin-top:4px;
+	padding-left:238px;
+	background:url(../img/pay-success2.png) no-repeat 37px 1px;
+}
+.middle .success .s-left h2{
+	font-size:30px;
+	color:#333;
+	font-weight:normal;
+	margin:2px 0 17px;
+}
+.middle .success .s-left p{
+	font-size:16px;
+	color:#666;
+	line-height:27px;
+}
+.middle .success .s-left span{
+	font-size:18px;
+	color:#666;
+}
+.middle .success .s-left span b{
+	font-size:20px;
+	color:#ca2821;
+	font-weight:normal;
+}
+.middle .success .s-left .pay{
+	display:inline-block;
+	margin:0 30px 9px 0;
+}
+.middle .success .s-left a{
+	position:absolute;
+	width:113px;
+	height:29px;
+	border:1px solid #c0c0c0;
+	font-size:18px;
+	color:#999;
+	line-height:29px;
+	text-align:center;
+	right:40px;
+	bottom:5px;
+}
+.middle .success .s-right h3{
+	font-size:18px;
+	color:#504f4f;
+	font-weight:normal;
+	margin:48px 0 4px;
+}
+.middle .success .s-right p{
+	font-size:12px;
+	color:#666;
+	line-height:22px;
+}

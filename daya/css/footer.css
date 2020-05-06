@@ -1,0 +1,76 @@
+.footer{
+	clear:both;
+}
+.footer .service{
+	width:1200px;
+	margin:0 auto;
+	font-size:14px;
+	color:#666;
+	border-top:1px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+	white-space: nowrap;
+}
+.footer .service li:first-child{
+	margin-left:0;
+}
+.footer .service li{
+	display:inline-block;
+	position:relative;
+	height:53px;
+	margin:15px 0 15px 55px;
+	padding-left:75px;
+}
+.footer .service li a{
+	display:inline-block;
+}
+.footer .service a img{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.footer .service a:hover b{
+	color:#ca2821;
+}
+.footer .service a b{
+	color:#333;
+	display:block;
+	margin-top:6px;
+}
+.footer .friendlink{
+	width:1200px;
+	margin:0 auto;
+	padding:6px 0 26px;
+	white-space: nowrap;
+}
+.footer .friendlink li{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:166px;
+}
+.footer .friendlink li:first-child{
+	margin-left:0;
+}
+.footer .friendlink li dl dd{
+	margin:0;
+}
+.footer .friendlink li dl dt{
+	font-size:14px;
+	color:#333;
+	line-height:18px;
+	font-weight:bold;
+}
+.footer .friendlink li a{
+	display:block;
+	font-size:12px;
+	color:#666;
+	line-height:20px;
+}
+.footer .copyright{
+	width:1200px;
+	margin:0 auto 17px;
+}
+.footer .copyright p{
+	font-size:12px;
+	color:#999;
+	text-align:center;
+}

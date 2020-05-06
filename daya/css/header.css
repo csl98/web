@@ -1,0 +1,228 @@
+.header .site-nav{
+	height:33px;
+	background-color:#d8d8d8;
+	line-height:33px;
+	font-size:12px;
+	color:#8e908b;
+	letter-spacing:1px;
+}
+.header .sn-container{
+	width:1200px;
+	margin:0 auto;
+	height:33px;
+}
+.header .sn-left{
+	float:left;
+}
+.header .sn-right{
+	float:right;
+	margin-right:6px;
+}
+.header .sn-left span{
+	display:inline-block;
+	margin:0 13px;
+}
+.header .sn-left a{
+	display:inline-block;
+	margin-left:8px;
+}
+.header .sn-right>a{
+	display:inline-block;
+	background:url(../img/site-nav.png) no-repeat;
+}
+.header .sn-right .daya{
+	background:url(../img/site-nav.png) no-repeat;
+	padding-right:11px;
+	background-position:-503px 5px;
+}
+.header .sn-right div{
+	position:relative;
+	cursor:pointer;
+	display:inline-block;
+	background:url(../img/site-nav.png) no-repeat;
+}
+.header .sn-right div:hover>ul{
+	display:block;
+}
+.header .sn-right div>ul{
+	width:70px;
+	background:#d8d8d8;
+	position:absolute;
+	font-size:12px;
+	text-align:center;
+	cursor:auto;
+	left:-4px;
+	top:28px;
+	display:none;
+}
+.header .sn-right div>ul>li{
+	line-height:25px;
+}
+.header .sn-right .attention{
+	padding-left:23px;
+	background-position:7px 6px;
+}
+.header .sn-right .cart{
+	padding-left:21px;
+	background-position:-100px 6px;
+}
+.header .sn-right .collection{
+	padding:0 9px 0 7px;
+	background-position:-511px 5px;
+}
+.header .sn-right .mobile{
+	padding-left:31px;
+	background-position:-248px 6px;
+}
+.header .sn-right .daya-net{
+	padding:0 20px 0 12px;
+	background:none;
+}
+.header .sn-right .support{
+	padding-right:11px;
+	background-position:-503px 5px;
+}
+.header .sn-right .web-nav{
+	padding:0 11px 0 35px;
+	background-position:-468px 6px;
+}
+.header .sn-right .web-nav>ul{
+	left:26px;
+}
+.header .search-wrap{
+	width:1200px;
+	height:88px;
+	margin:15px auto 7px;
+}
+.header .search-wrap img{
+	margin:0 69px 0 21px;
+}
+.header .search{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:6px;
+}
+.header .search form{
+	width:823px;
+	height:55px;
+	background:red;
+}
+.header .search form input[type="text"]{
+	width:652px;
+	height:47px;
+	border:4px solid #153887;
+	padding:0 0 0 6px;
+	line-height:47px;
+	font-size:16px;
+	color:#666;
+}
+.header .search form input[type="submit"]{
+	width:157px;
+	height:55px;
+	border:none;
+	padding:0;
+	font-size:16px;
+	color:#fefefe;
+	background-color:#153887;
+	vertical-align:top;
+	letter-spacing:16px;
+	text-indent:12px;
+}
+.header .search ul{
+	font-size:16px;
+	color:#666;
+	margin-top:10px;
+}
+.header .search ul li{
+	float:left;
+	padding:0 17px;
+	border-left:1px solid #595959;
+	height:16px;
+	line-height:16px;
+}
+.header .search ul li:first-child{
+	padding-left:0;
+	border-left:none;
+}
+.header .main-nav{
+	height:37px;
+	border-bottom:1px solid #0000ff;
+}
+.header .main-nav>div{
+	width:1200px;
+	margin:0 auto;
+	font-size:18px;
+	position:relative;
+}
+.header .main-nav>div>ul>li,
+.header .main-nav>div>ul{
+	display:inline-block;
+}
+.header .main-nav>div>span{
+	width:137px;
+	height:37px;
+	background:#0000ff url(../img/main-nav.png) no-repeat 26px 10px;
+	display:inline-block;
+	color:#fffdfd;
+	margin-right:12px;
+	padding-left:53px;
+	line-height:38px;
+	cursor:pointer;
+}
+.header .main-nav>div>ul>li>a{
+	color:#666;
+	margin:0 12px;
+	font-size:18px;
+	line-height:38px;
+	display:inline-block;
+}
+.header .main-nav .menu{
+	position:absolute;
+	color:#fff;
+	width:190px;
+	top:37px;
+	left:0;
+	z-index:2;
+	overflow:hidden;
+	display:none;
+}
+.header .main-nav .menu ul li{
+	display:inline-block;
+}
+.header .main-nav .menu a{
+	font-size:12px;
+	color:#fff;
+}
+.header .main-nav .menu i{
+	background-color:#a0a0a0;
+	filter:alpha(opacity:74);
+	opacity:0.74;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.header .main-nav .menu>div>span{
+	position:absolute;
+	left:8px;
+	top:50%;
+	margin-top:-8px;
+}
+.header .main-nav .menu>div{
+	position:relative;
+	font-size:12px;
+}
+.header .main-nav .menu ul{
+	border-top:1px solid #c3b47f;
+	margin-left:42px;
+	padding:5px 0;
+}
+.header .main-nav .menu>div:first-child>ul{
+	border:none;
+}
+.header .main-nav .menu ul a{
+	margin-right:9px;
+	white-space:nowrap;
+}

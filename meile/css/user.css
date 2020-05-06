@@ -1,0 +1,122 @@
+body{
+	padding:0 0 2rem;
+}
+.header{
+	height:3.6rem;
+	background:url(../img/user_big.jpg) no-repeat center/100%;
+	max-width:7.5rem;
+	margin:0 auto;
+}
+.header>.user_head{
+	width:7.1rem;
+	margin:0 auto;
+	padding-top:.3rem;
+}
+.header>.user_head>img{
+	margin:0 auto;
+	width:1.35rem;
+	height:1.35rem;
+	border:.03rem solid #fff;
+	border-radius:50%;
+	display:block;
+}
+.header>.user_head>span{
+	display:block;
+	position:relative;
+	font-size:.24rem;
+	color:#fff;
+	text-align:center;
+}
+.header>.user_head>span>em{
+	width:.23rem;
+	height:.23rem;
+	background:url(../img/man.png) no-repeat center/100%;
+	margin-left:.12rem;
+	position:absolute;
+}
+.header>.user_head>p{
+	display:flex;
+	justify-content:space-between;
+	padding:0 1.1rem;
+	margin-top:.4rem;
+}
+.header>.user_head>p>a{
+	font-size:.24rem;
+	color:#fff;
+	text-align:center;
+}
+.header>.user_head>p>a>span{
+	display:block;
+}
+.order_triage>ul{
+	width:7.1rem;
+	margin:.15rem auto;
+	display:flex;
+	justify-content:space-between;
+}
+.order_triage>ul>li>a{
+	font-size:.24rem;
+	color:#333;
+	display:block;
+}
+.order_triage>ul>li>a>img{
+	width:.53rem;
+	height:.52rem;
+	display:block;
+	margin:0 auto;
+}
+.order_nav>ul>li{
+	background-color:#eee;
+	margin-bottom:.11rem;
+}
+.order_nav>ul>li>a{
+	font-size:.3rem;
+	color:#333;
+	display:block;
+	width:7.1rem;
+	margin:0 auto;
+	line-height:.8rem;
+}
+.order_nav>ul>li>a>img{
+	width:.45rem;
+	height:.52rem;
+	margin:.14rem .3rem 0 0;
+	vertical-align:top;
+}
+.order_nav>ul>li>a>i{
+	float:right;
+	width:.25rem;
+	height:.42rem;
+	background:url(../img/order_go.png) no-repeat center/100%;
+	margin:.19rem .17rem 0 0;
+}
+.menu_bar{
+	border-top:.01rem solid #bfbfbf;
+	border-bottom:.01rem solid #bfbfbf;
+	position:fixed;
+	bottom:0;
+	width:7.5rem;
+	background-color:#fff;
+}
+.menu_bar>ul{
+	width:7rem;
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.menu_bar>ul>li>a{
+	font-size:.24rem;
+	color:#333;
+	display:block;
+	padding:.15rem;
+}
+.menu_bar>ul>li>a>img{
+	display:block;
+	margin:0 auto;
+	width:.42rem;
+	height:.38rem;
+}
+.menu_bar>ul>.on>a{
+	color:#339999;
+}

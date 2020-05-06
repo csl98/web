@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>登录</title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?18ca32a7f6bde9dd12597c34c7e946b7";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body style="display:block">
+<div class="header">
+    <p><a href="index.html"></a>登录页</p>
+</div>
+<form class="login">
+    <input id="username" type="text" placeholder="手机号/邮箱">
+    <p><input id="vcode" type="text" placeholder="验证码：" maxlength="4"><span id="code"></span></p>
+    <p><input id="password" type="password" oncontextmenu="return false" onpaste="return false" placeholder="密码："></p>
+    <input id="submit" type="submit" value="登录">
+</form>
+<p><a href="register.html">快速注册</a><a href="javascript:;">忘记密码</a></p>
+<div class="other_ways">
+    <p>其他登录方式 >></p>
+    <div>
+        <a href="javascript:;"><img src="img/other_ways1.png"></a>
+        <a href="javascript:;"><img src="img/other_ways2.png"></a>
+        <a href="javascript:;"><img src="img/other_ways3.png"></a>
+    </div>
+</div>
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

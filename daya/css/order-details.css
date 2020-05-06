@@ -1,0 +1,90 @@
+.middle{
+	padding:0 0 120px;
+}
+.middle .location{
+	font-size:14px;
+	color:#474849;
+	height:30px;
+	margin:16px 0;
+}
+.middle .location>span{
+	line-height:28px;
+}
+.middle .location>i{
+	width:6px;
+	height:12px;
+	display:inline-block;
+	background:url(../img/arrow.png);
+	margin:-1px 3px;
+}
+.middle .order-details{
+	width:965px;
+	display:inline-block;
+	margin-left:33px;
+	vertical-align:top;
+}
+.middle .order-details>p{
+	font-size:16px;
+	color:#666;
+	line-height:30px;
+}
+.middle .order-details>p>a{
+	float:right;
+	padding-right:28px;
+	background:url(../img/backlist.png) no-repeat right;
+}
+.middle .order-details>div{
+	padding:20px 0 20px 44px;
+	border-top:1px solid #d2d2d2;
+}
+.middle .order-details>div>h3{
+	color:#333;
+	font-size:14px;
+}
+.middle .order-details>div>div{
+	display:inline-block;
+	margin-right:140px;
+}
+.middle .order-details>div>div>p{
+	color:#666;
+	font-size:14px;
+}
+.middle .order-details>div>div>p>i{
+	font-style:normal;
+	font-size:16px;
+	color:#ca2821;
+}
+.middle .order-details table{
+	width:875px;
+	border-collapse:collapse;
+	margin-top:5px;
+}
+.middle .order-details table th{
+	font-size:12px;
+	color:#333;
+}
+.middle .order-details table tr{
+	padding-bottom:10px;
+}
+.middle .order-details table thead{
+	background-color:#d2d2d2;
+}
+.middle .order-details table td{
+	vertical-align:top;
+}
+.middle .order-details table td img{
+	float:left;
+	margin:5px 7px 10px 0;
+}
+.middle .order-details table td p{
+	font-size:14px;
+	color:#666;
+	text-align:center;
+	margin-top:10px;
+}
+.middle .order-details table td:first-child p:hover{
+	color:#ca2821;
+}
+.middle .order-details table td:first-child p{
+	text-align:left;
+}

@@ -1,0 +1,46 @@
+.header{
+	border-bottom:2px solid #0000ff;
+}
+.header img{
+	margin-top:6px;
+}
+.header>div{
+	width:1174px;
+	height:90px;
+	margin:0 auto;
+	padding:0 13px;
+}
+.header p{
+	float:right;
+	font-size:14px;
+	color:#666;
+	margin-top:40px;
+}
+.header p>.help{
+	padding-right:14px;
+	background:url(../img/help_arrow.png) no-repeat 58px 8px;
+}
+.header>div>p>a:hover{
+	color:#ca2821;
+}
+.header .login{
+	margin-left:3px;
+}
+.header .register{
+	margin:0 6px 0 -8px;
+}
+.banner{
+	height:600px;
+	min-width:1200px;
+	margin:21px auto 23px;
+	background:url(../img/banner5.jpg) no-repeat center;
+}
+.copyright{
+	width:1200px;
+	margin:0 auto 16px;
+}
+.copyright p{
+	font-size:12px;
+	color:#999;
+	text-align:center;
+}

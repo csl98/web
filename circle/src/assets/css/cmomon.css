@@ -1,0 +1,251 @@
+body,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td,figure,h1,h2,h3,h4,h5,h6,pre
+{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li
+{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,strong,th
+{
+    font-weight: normal;
+    font-size: inherit;
+}
+input,button,textarea
+{
+    outline: none;
+    border:none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+}
+button
+{
+    font-size: 0;
+}
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder,
+a
+{
+    color: #ccc;
+}
+textarea
+{
+    resize: none;
+}
+input[type=file] {
+    display: none;
+}
+a
+{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+b
+{
+    font-weight: normal;
+}
+i,em
+{
+    font-style: normal;
+}
+img {
+    flex-shrink: 0;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+figure {
+    display: inline-block;
+}
+html,body,#app
+{
+    height: 100%;
+    font-size: 0;
+}
+.scroll-x,
+.scroll-y,
+.scroll-xy
+{
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+.popup .scroll-x,
+.popup .scroll-y,
+.popup .scroll-xy
+{
+    overscroll-behavior: none;
+}
+.scroll-x {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.scroll-x::-webkit-scrollbar {
+    display: none;
+}
+.scroll-y {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.scroll-xy {
+    overflow: scroll;
+}
+
+.no-duration {
+    transition-duration: 0s !important;
+}
+
+.swiper-lazy,
+[lazy] {
+    transition: opacity .3s;
+    background: no-repeat center;
+}
+.swiper-lazy,
+[lazy="loading"] {
+    opacity: .3;
+    background-image: url("../../assets/img/loading.gif");
+    background-size: 20% auto;
+}
+.swiper-lazy-loaded,
+[lazy="loaded"] {
+    opacity: 1;
+    background-size: initial;
+}
+[lazy="error"] {
+    background-image: url("../../assets/img/error-img.png") !important;
+    background-size: 20% auto;
+    opacity: 1;
+}
+
+
+a.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ellipsis{
+    overflow: hidden;
+    position: relative;
+}
+.ellipsis::after{
+    content:"...";
+    font-weight:bold;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:0 0 1px 45px;
+    background: linear-gradient(to right, rgba(255,255,255,.3), #fff, #fff) no-repeat;
+}
+
+.list-circle::before {
+    content: '·';
+    vertical-align: top;
+}
+
+.slide-left-enter-active, .slide-left-leave-active,
+.slide-right-enter-active, .slide-right-leave-active {
+    transition-duration: .3s;
+    will-change: transform;
+    position: absolute;
+    width: 100%;
+}
+.slide-left-enter,
+.slide-right-leave-to {
+    transform: translate3d(100%,0,0);
+}
+.slide-left-leave-to,
+.slide-right-enter {
+    transform: translate3d(-100%,0,0);
+}
+
+
+.fade-enter-active, .fade-leave-active {
+    transition-duration: .3s;
+    will-change: opacity;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0 !important;
+}
+
+
+.flexbox {
+    display: flex;
+}
+.flex-y {
+    flex-direction: column;
+}
+.flexbox>.flex-shrink {
+    width: 100%;
+}
+.flex-y>.flex-shrink {
+    height: 100%;
+}
+.flexbox>*:not(.flex-shrink) {
+    flex-shrink: 0;
+}
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-main-center {
+    justify-content: center;
+}
+.flex-main-start {
+    justify-content: flex-start;
+}
+.flex-main-end {
+    justify-content: flex-end;
+}
+.flex-main-between {
+    justify-content: space-between;
+}
+.flex-main-around {
+    justify-content: space-around;
+}
+
+.flex-cross-center {
+    align-items: center;
+    align-content: center;
+}
+.flex-cross-start {
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.flex-cross-end {
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.flex-cross-between {
+    align-content: space-between;
+}
+.flex-cross-around {
+    align-content: space-around;
+}
+
+.flex-top {
+    margin-bottom: auto;
+}
+.flex-right {
+    margin-left: auto;
+}
+.flex-bottom {
+    margin-top: auto;
+}
+.flex-left {
+    margin-right: auto;
+}

@@ -1,0 +1,96 @@
+.middle{
+	width:1200px;
+	margin:11px auto 83px;
+}
+.middle .left{
+	width:498px;
+	display:inline-block;
+}
+.middle .left>a>img{
+	float:left;
+	margin-right:8px;
+}
+.middle .left p{
+	font-size:16px;
+	color:#666;
+	line-height:28px;
+}
+.middle .left p:first-child>a{
+	display:block;
+}
+.middle .left p:first-child{
+	padding-top:8px;
+}
+.middle form{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:35px;
+}
+.middle form h3{
+	font-size:16px;
+	color:#333;
+	font-weight:normal;
+	line-height:44px;
+}
+.middle form textarea{
+	width:656px;
+	height:243px;
+	border:1px solid #bfbfbf;
+	padding:5px 0 0 9px;
+	resize:none;
+	font-size:18px;
+	color:#999;
+	overflow:hidden;
+}
+.middle form>a{
+	display:block;
+	width:90px;
+	height:31px;
+	border:1px solid #bfbfbf;
+	font-size:16px;
+	color:#333;
+	text-align:center;
+	line-height:31px;
+	margin:3px 0 10px;
+	position:relative;
+	background:#fff;
+}
+.middle form>a>input[type="file"]{
+	width:85px;
+	height:32px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+.middle form>p{
+	font-size:16px;
+	color:#666;
+	margin:5px 0;
+}
+.middle form>p>i{
+	color:#ca2821;
+}
+.middle form>p>span{
+	margin-left:8px;
+}
+.middle form>p em{
+	display:inline-block;
+	width:21px;
+	height:20px;
+	background:url(../img/stars.png) no-repeat -24px 0;
+	vertical-align:top;
+	cursor:pointer;
+}
+.middle form input[type="submit"]{
+	width:135px;
+	height:40px;
+	border:none;
+	background:#ca2821;
+	font-size:18px;
+	color:#fff;
+	margin-top:15px;
+}
+.middle form>p .on{
+	background-position:0 0;
+}

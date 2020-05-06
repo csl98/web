@@ -1,0 +1,106 @@
+body{
+	background-color:#eee;
+	padding-bottom:4rem;
+}
+.header{
+	background-color:#313131;
+	padding:.13rem 0;
+	position:fixed;
+	top:0;
+	width:7.5rem;
+	z-index:1;
+}
+.header>p{
+	width:6rem;
+	line-height:.52rem;
+	font-size:.3rem;
+	color:#fff;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+.header>p>a{
+	position:absolute;
+	width:.52rem;
+	height:.52rem;
+	background:url(../img/back.png) no-repeat center/100%;
+	left:-.56rem;
+}
+.login{
+	width:6rem;
+	margin:0 auto;
+}
+.login label,
+.login input{
+	font-size:.3rem;
+	color:#999;
+	border:none;
+}
+.login label{
+	position:absolute;
+	left:.14rem;
+}
+.login input{
+	text-indent:.14rem;
+}
+.login>p,
+.login>input{
+	margin-top:.7rem;
+}
+.login p{
+	position:relative;
+}
+.login input,
+.login p{
+	width:100%;
+	height:.7rem;
+	line-height:.7rem;
+}
+.login>input[type="submit"]{
+	color:#eee;
+	background:#009999;
+	text-indent:0;
+}
+#code{
+	width:1.72rem;
+	height:.7rem;
+	position:absolute;
+	right:0;
+	line-height:.7rem;
+	text-align:center;
+	letter-spacing:.05rem;
+	color:#999;
+	z-index:1;
+	font-size:.3rem;
+}
+body>p{
+	width:6rem;
+	margin:.3rem auto;
+}
+body>p>a{
+	font-size:.24rem;
+	color:#666;
+}
+body>p>a:nth-of-type(2){
+	float:right;
+}
+.other_ways{
+	width:6rem;
+	margin:0 auto;
+}
+.other_ways>p{
+	font-size:.24rem;
+	color:#333;
+	text-align:center;
+	margin:.5rem 0 .3rem;
+}
+.other_ways>div{
+	width:3.6rem;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.other_ways>div>a>img{
+	width:.59rem;
+	height:.59rem;
+}
